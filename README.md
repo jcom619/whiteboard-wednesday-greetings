@@ -42,4 +42,4 @@ Make a `solution.py` that solves the following problem: given a string represent
 
 ## Streeeeeetch Goal
 
-- Did you use an if? What if we have 20 languages? 100? You don't want to write all those `elif`s! Think about how you could use a dictionary with keys. Each key could be a language, and each value, the... ??
+- Did you use an `if`? What if we have 20 languages? 100? You don't want to write all those `elif`s! Think about how you could use a dictionary with keys. Each key could be a language, and each value, the... ??
