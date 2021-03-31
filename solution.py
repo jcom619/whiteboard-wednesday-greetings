@@ -11,6 +11,8 @@
 # # Streeeeeetch Goal
 
 # - Did you use an `if`? What if we have 20 languages? 100? You don't want to write all those `elif`s! Think about how you could use a dictionary with keys. Each key could be a language, and each value, the... ??
+
+# todo USED DICTIONARY TO SIMPLIFY SELECTION OF LANGUAGE
 greeting_lang = {
     "e_greet": "Hello!",
 
@@ -19,20 +21,25 @@ greeting_lang = {
     "f_greet": "Bonjour!"
 }
 
+# todo VARS ASSIGNED TO SELECT DICT. ITEMS EASILY
 e = greeting_lang['e_greet']
 s = greeting_lang['s_greet']
 f = greeting_lang['f_greet']
 
-make_selection = input("enter number and press return:\n")
+# tod CHOSE NUMBERS AS A TEMPORARY BRUTEFORCE RESPONSE FOR AVOIDING ANY POSSIBLE CAPS PROBLEMS
+
+make_selection = input("\ntype your language and press return:\n")
 
 
 def greet_response(make_selection):
-    if (make_selection == "1"):
+    if(make_selection.lower() == "english"):
         print(e)
-    elif(make_selection == "2"):
+    elif(make_selection.lower() == "spanish"):
         print(s)
-    else:
+    elif(make_selection.lower() == "french"):
         print(f)
+    else:
+        print("make sure your selection is within the parameters of 1, 2 or 3!")
 
 
 greet_response(make_selection)
