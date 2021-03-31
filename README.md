@@ -1,12 +1,12 @@
 # Whiteboard Wednesdays - Greetings
 
-## Please Read!
+## Please Read
 
 Your mission is to solve a problem we'll describe below.
 
 But your _real_ mission is to prepare to help someone else solve it.
 
-## Help Someone Else Solve It?!
+## Help Someone Else Solve It?
 
 Tomorrow you'll be interviewing someone, helping them through the process of solving this problem. So as you solve this, think through your process. You'll be able to use that to, with the benefit of hindsight, guide your partner through that same process.
 
